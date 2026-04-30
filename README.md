@@ -5,3 +5,10 @@
 ```bash
 dotnet build FastReport.OpenSource.sln -f net6.0 -c Debug
 ```
+
+## 查找最近编译的DLL
+
+```bash
+find . -type f -name "*.dll" -newermt "1 day ago"
+```
+
